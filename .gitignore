@@ -3,6 +3,12 @@ __pycache__/
 *.py[codz]
 *$py.class
 
+# Ignore database
+db.sqlite3
+
+# Ignore media uploads
+/media/
+
 # C extensions
 *.so
 
