@@ -31,7 +31,7 @@ A comprehensive REST API for a blog platform built with Django and Django REST F
 
 1. **Clone the repository**
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/Ahmed-Mana3/DRF_blog_API.git
    cd Django_blog_API
    ```
 
