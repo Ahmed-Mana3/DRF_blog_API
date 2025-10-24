@@ -22,13 +22,13 @@ class UserRegisterSerializer(serializers.ModelSerializer):
 
 class UpdateUserProfileSerializer(serializers.ModelSerializer):
     class Meta:
-        model = get_user_model()
+        model = user_model
         fields = ["id", "username", "email", "first_name", "last_name", "bio", "profile_picture", "facebook", "instagram", "youtube", "twitter"]
 
 
 class AuthorSerializer(serializers.ModelSerializer):
     class Meta:
-        model = get_user_model()
+        model = user_model
         fields = ["id", "username","first_name","last_name"]
 
 
